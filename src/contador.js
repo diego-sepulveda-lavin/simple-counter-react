@@ -5,28 +5,35 @@ import React from 'react';
 function Contador(props){
     return (
         <>
-            <div class="container">
-                <div class="row">
-                    <div class="col-1 digito" >
-                        <div><i class="far fa-clock"></i></div>
+            <div className="container">
+                <div className="row">
+                    <div className="col-2 botondiv" >
+                       <button>Stop</button>
+                       <button>Reset</button>
+                       <button>Resume</button>
                     </div>
-                    <div class="col-1 digito" >
+                    <div className="col-1 digito" >
+                        <div><i className="far fa-clock"></i></div>
+                    </div>
+                    <div className="col-1 digito" >
                         <div>{props.num1}</div>
                     </div>
-                    <div class="col-1 digito" >
-                        <div>{props.segundosCounter}</div>
+                    <div className="col-1 digito" >
+                        <div>{props.num2}</div>
                     </div>
-                    <div class="col-1 digito" >
-                        <div>{props.segundosCounter}</div>
+                    <span className="puntos">:</span>
+                    <div className="col-1 digito" >
+                        <div>{props.num3}</div>
                     </div>
-                    <div class="col-1 digito" >
-                        <div>{props.segundosCounter}</div>
+                    <div className="col-1 digito" >
+                        <div>{props.num4}</div>
                     </div>
-                    <div class="col-1 digito" >
-                        <div>{props.segundosCounter}</div>
+                    <span className="puntos">:</span>
+                    <div className="col-1 digito" >
+                        <div>{props.num5}</div>
                     </div>
-                    <div class="col-1 digito" >
-                        <div>{props.counter}</div>
+                    <div className="col-1 digito" >
+                        <div>{props.num6}</div>
                     </div>
                 </div>
             </div>

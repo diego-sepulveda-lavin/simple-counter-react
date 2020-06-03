@@ -17,10 +17,43 @@ body {
     margin: 3px;
     font-size: 20px;
     font-weight: 900;
+
+}
+
+.botondiv{
+    padding: 0px;
+}
+button { 
+    background-color: #161616;
+    width: 90%;
+    border: none;
+    border: 2px solid white;
+    margin-bottom: 2px;
+    margin-top : 2px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 900;
+}
+
+button:hover { 
+    background-color: blue;
 }
 
 .container{
     display: flex;
     justify-content: center;
-    padding-top: 10px;
+    margin-top: 20px;
+
+}
+
+.row{
+    display: flex;
+    align-items: center;
+}
+
+.puntos {
+    font-weight: 900;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
 }
